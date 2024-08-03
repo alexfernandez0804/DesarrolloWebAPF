@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Mensaje</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+
+        <div>
+            <label for="asunto">Asunto</label>
+            <input type="text" name="asunto">
+        </div>
+
+        <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" cols="250" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="importancia">Importancia</label>
+            <input type="radio" name="importancia" value="Alta">Alta
+            <input type="radio" name="importancia" value="Media">Media
+            <input type="radio" name="importancia" value="Baja">Baja
+        </div>
+
+        <div>
+            <label for="adjunto">Adjuntar archivo</label>
+            <input type="file" name="adjunto">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </div>
+    </form>
+</body>
+</html>
