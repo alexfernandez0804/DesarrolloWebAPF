@@ -1,0 +1,30 @@
+.contenedor{
+    z-index: 5;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 90%;
+    height: 800px;
+    border: 1px solid black;
+}
+
+.caja {
+    background-color: aqua;
+    left: 100px;
+    top: 100px;
+    border: 1px solid black;
+    width: 200px;
+    position:fixed;
+    z-index: 1;
+}
+
+.caja2 {
+    background-color: rgb(163, 232, 25);
+    left: 100px;
+    top: 100px;
+    border: 1px solid black;
+    width: 200px;
+    position:fixed;
+    z-index: 10;
+    visibility: visible;
+}
