@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Mensaje</title>
+    <link rel="stylesheet" href="mensaje.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="encabezado">
+            <h1>Enviar Mensaje</h1>
+        </div>
+    
+        <div class="cuerpo">
+            <div class="navegacion">
+                <ul class="vertical">
+                    <li><a href="yo.html">YO</a></li> 
+                    <li><a href="misamigos.html">MIS AMIGOS</a></li>
+                    <li><a href="mifamilia.html">MIFAMILIA</a></li>
+                    <li><a href="mis hobbies.html">MIS HOBBIES</a></li> 
+                    <li><a href="miciudad.html">MICIUDAD</a></li> 
+                    <li><a href="enviarmensaje.html">ENVIA</a></li> 
+                </ul>
+            </div>
+    
+            <div class="cuerpo">
+                <form action="">
+                    <div class="escritura">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="escritura">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="escritura">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" name="asunto" id="asunto">
+                    </div>
+                    <div class="escritura">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="escritura">
+                        <label for="importancia">Importancia:</label>
+                        <div class="seleccion">
+                            <input type="radio" name="importancia" value="Alta" id="alta">
+                            <label for="alta">Alta</label>
+                            <input type="radio" name="importancia" value="Media" id="media">
+                            <label for="media">Media</label>
+                            <input type="radio" name="importancia" value="Baja" id="baja">
+                            <label for="baja">Baja</label>
+                        </div>
+                    </div>
+                    <div class="escritura">
+                        <label for="adjunto">Adjuntar archivo:</label>
+                        <input type="file" name="adjunto" id="adjunto">
+                    </div>
+                    <div class="escritura">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+        <div class="piepagina">
+            <h3>Gracias por enviar tu mensaje!</h3>
+        </div>
+    </div>
+
+</body>
+</html>
