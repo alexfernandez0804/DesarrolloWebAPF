@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    border: 1px solid black;
+    /* width: 600px; */
+    margin: auto;
+    height: 120px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.item{
+    border: 2px solid black;
+    background-color: orange;
+    width: 50px;
+    border-radius: 10px;
+}

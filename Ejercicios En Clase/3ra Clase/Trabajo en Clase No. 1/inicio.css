@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D9D9D9;
+}
+
+.container {
+    width: 900px;
+    background-color: white;
+    border: 1px solid #000;
+    padding-top: 25px;
+}
+
+.encabezado {
+    background-color: #95B3D7;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.universidad {
+    text-align: center;
+    color: red;
+    flex-grow: 1; 
+}
+
+.universidad h1 {
+    font-size: 20px; 
+    margin: 0;
+}
+
+.universidad h2 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #005b9f;
+}
+
+.carreras {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0070C0;
+    color: black;
+    font-size: 12px;
+}
+
+.carreras h3 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.carreras h3:first-child {
+    background-color: #FFC000;
+    color: black;
+}
+
+.preguntas {
+    display: flex;
+    background-color: #404040;
+    gap: 10px; 
+    padding: 0 100px; 
+    justify-content: end; 
+    text-align: center;
+    align-items: center;
+    height: 40px;
+}
+
+.preguntas div {
+    width: 100px;
+    border: 1px solid black;
+    height: 22px;
+}
+
+.pregunta1, .pregunta3, .pregunta5 {
+    background-color: #C60000;
+    color: white;
+}
+
+.pregunta2, .pregunta4 {
+    background-color: white;
+    color: black;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+}
+
+.contenido{
+    padding: 25px;
+    background-color: #D9D9D9;
+    padding-bottom: 5px;
+}
+
+.cuerpo {
+    padding: 25px;
+    text-align: left;
+    background-color: #404040;
+    color: #FFC000;
+    height: 150px;
+    margin: 80px;
+    border: 1px solid black; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #C0504D;
+    color: white;
+    font-size: 16px;
+    border-top: 2px solid #000;
+}
