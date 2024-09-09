@@ -27,3 +27,4 @@ $resultado=$con->query($sql);
     <?php} ?>
 
 </table>
+
