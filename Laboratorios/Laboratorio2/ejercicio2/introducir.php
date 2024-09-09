@@ -6,7 +6,6 @@ if (isset($_POST['a']) && isset($_POST['b']) && isset($_POST['c'])) {
     $b = $_POST['b'];
     $c = $_POST['c'];
 
-    // Guardar los valores en la sesión
     $_SESSION['a'] = $a;
     $_SESSION['b'] = $b;
     $_SESSION['c'] = $c;

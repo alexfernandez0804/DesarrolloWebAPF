@@ -1,5 +1,4 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $filas = $_POST['filas'];
     $columnas = $_POST['columnas'];
 
@@ -23,5 +22,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "</tr>";
 
     echo "</table>";
-}
 ?>
