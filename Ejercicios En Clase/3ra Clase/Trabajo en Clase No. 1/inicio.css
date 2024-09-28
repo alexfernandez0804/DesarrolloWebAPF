@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    width: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-    width: 900px;
     background-color: white;
     border: 1px solid #000;
     padding-top: 25px;
@@ -28,17 +27,14 @@ body {
 .universidad {
     text-align: center;
     color: red;
-    flex-grow: 1; 
 }
 
 .universidad h1 {
     font-size: 20px; 
-    margin: 0;
 }
 
 .universidad h2 {
     font-size: 16px;
-    margin: 5px 0;
     color: #005b9f;
 }
 

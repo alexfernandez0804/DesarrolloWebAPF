@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta3</title>
+    <style>
+        form {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 150px;
+            padding: 10px;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-top: 10px;
+        }
+
+        input[type="number"] {
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 2px solid #499ee4; 
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            background-color: #32b399;
+            border: 2px solid #006f6f;
+            color: white;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="menu.php" method="post">
+        <label for="a">a=</label>
+        <input type="number" name="a">
+
+        <label for="b">b=</label>
+        <input type="number" name="b">
+
+        <label for="c">c=</label>
+        <input type="number" name="c">
+
+        <input type="submit" value="Menu">
+    </form>
+</body>
+</html>

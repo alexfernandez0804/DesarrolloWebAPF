@@ -1,0 +1,132 @@
+body{
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    border: 1px solid black;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    background-color: #FABF8F;
+}
+
+.titulo{
+    text-align: center;
+}
+.titulo h1{
+    color: #C60000 ;
+    font-size: 25px;
+}
+
+.titulo h2{
+    color: #0070C0 ;
+    font-size: 20px;
+    font-weight: 1;
+}
+
+.carreras{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.carrera1{
+    border: 1px solid black;
+    width: 50%;
+    background-color: #D9D9D9;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.carrera2{
+    border: 1px solid black;
+    width: 50%;
+    background-color: #92D050;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.preguntas{
+    background-color: rgb(105, 105, 105);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FFC000;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+.semestre{
+    padding-right: 46%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 8px;
+
+}
+
+
+.inicio, .pregunta2, .pregunta3{
+    border: 2px solid #ff6565;
+    color: black;
+    background-color: #FFC000;
+    width: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.cuerpo{
+    display: flex;
+    background-color: #D9D9D9;
+}
+
+.containerp4{
+    border: 1px solid black;
+    width: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.pregunta4{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #ff6565;
+    width: 100px;
+    color: black;
+    background-color: #FFC000;
+}
+
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.bowser {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.piepagina{
+    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+}
+
+
+

@@ -1,0 +1,106 @@
+body {
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #d4d4d4;
+    padding-bottom: 50px;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.encabezado {
+    background-color: #95B3D7;
+    padding: 10px; 
+}
+
+.universidad {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    color: red;
+}
+
+.titulo h2 {
+    color: black;
+}
+
+.carreras{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.carrera1 {
+    background-color: #FFC000;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.carrera2 {
+    background-color: #0070C0;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.preguntas{
+    background-color: #404040;
+    display: flex;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: end;
+    gap: 10px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.pregunta1, .pregunta3, .pregunta5{
+    background-color: #C60000;
+    color: white;
+    border: 1px solid black;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
+
+.pregunta2, .pregunta4{
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.info {
+    background-color: #404040;
+    color: #FFC000;
+    margin: 50px;
+}
+
+.datos{
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.piepagina {
+    background-color: #C0504D;
+    text-align: center;
+}
