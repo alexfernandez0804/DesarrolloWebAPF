@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="eventos2.js"></script>
+</head>
+<body id="cuerpo">
+
+    <input type="button" value="pincha aqui" id="boton">
+    <br><br><br>
+    
+    
+    <div style="border: 1px solid black; width: 200px; height: 200px;" id="capa">
+    <div>
+        puedes pinchar sobre este elemnto o simplemente pasar el cursor por encima
+    </div>
+
+
+    <script>    
+        var capa=document.getElementById("capa");
+
+        capa.onmouseover=function(){
+            alert("Acabas de pasar el cursor por encima de la capa");
+        }
+
+        var boton=document.getElementById("boton");
+
+        boton.addEventListener("click",function(){
+            alert("gracias por pinchar");
+        });
+
+        var cuerpo=document.getElementById("cuerpo");
+
+        cuerpo.addEventListener("load",function(){
+            alert("la pagina se ha cargado completamente");
+        });
+
+
+    </script>
+</body>
+
+</html>

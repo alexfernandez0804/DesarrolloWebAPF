@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Palíndromo</title>
+</head>
+<body>
+    <h1>Verificar Palíndromo</h1>
+    <label>Cadena de texto:</label><input type="text" id="texto"><br><br>
+
+    <input type="button" value="Verificar" onclick="verificarPalindromo()">
+    <p id="resultado"></p>
+
+    <script>
+        function verificarPalindromo() {
+            var texto = document.getElementById("texto").value.toLowerCase().replace(/[\s]/g, '');
+            var invertido = texto.split('').reverse().join('');
+            var resultado = (texto === invertido) ? "La cadena es un palíndromo." : "La cadena NO es un palíndromo.";
+            document.getElementById("resultado").innerHTML = resultado;
+        }
+    </script>
+</body>
+</html>
