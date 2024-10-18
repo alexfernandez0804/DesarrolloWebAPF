@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lista de Compras</h1>
+    <input type="text" name="elemento" id="elemento">
+
+
+    <button onclick="añadirElemento()">Añadir</button>
+    <ul id="lista">
+
+    </ul>
+
+    <script>
+        var verde = true;
+
+        function añadirElemento(){
+            var lista = document.getElementById('lista');
+            var elemento = document.getElementById('elemento').value;
+
+            var compra = document.createElement("li");
+            compra.innerHTML = elemento;
+
+            if (verde) {
+                compra.style.backgroundColor = "green";
+            } else {
+                compra.style.backgroundColor = "white";
+            }
+            
+            verde = !verde;
+
+            lista.appendChild(compra);
+            console.log(lista);
+
+            document.getElementById('elemento').value = '';
+            document.getElementById('elemento').focus();
+        }
+    </script>
+
+</body>
+</html>
