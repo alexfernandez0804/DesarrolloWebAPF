@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    a: <input type="text" id="a">
+    b: <input type="text" id="b">
+    <button id="boton">Sumar</button>
+
+
+    <script>
+        $(document).ready(function(){
+            $("#boton").click(function(evento){
+                var c=parseInt($("#a").val())+parseInt($("#b").val());
+                $("#resultado").html(c);
+            });
+        });
+    </script>
+</body>
+</html>
