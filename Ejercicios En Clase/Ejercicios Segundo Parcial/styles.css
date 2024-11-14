@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 10px;
+}
+.contenedor {
+    display: flex;
+    border: 2px solid green;
+    padding: 10px;
+}
+#opciones {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#opciones button {
+    width: 100%;
+    height: 70px;
+}
+#contenido {
+    flex: 1;
+    border-left: 2px solid green;
+    padding: 15px;
+}
+#mensaje {
+    width: 70%;
+    color: white;
+    background-color: #22d0bf;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
