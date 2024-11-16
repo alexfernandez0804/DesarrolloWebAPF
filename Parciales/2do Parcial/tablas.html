@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Operaciones</title>
+</head>
+<body>
+    <form>
+        <label>Tabla del</label>
+        <input type="number" name="num" style="width: 70px" />
+        <div class="col">
+          <div class="row">
+            <label>
+              <input type="radio" name="op" value="sum" checked />
+              Suma
+            </label>
+          </div>
+          <div class="row">
+            <label>
+              <input type="radio" name="op" value="res" />
+              Resta
+            </label>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <label>
+              <input type="radio" name="op" value="mul" />
+              Multiplicación
+            </label>
+          </div>
+          <div class="row">
+            <label>
+              <input type="radio" name="op" value="div" />
+              División
+            </label>
+          </div>
+        </div>
+        <label>Hasta el</label>
+        <input type="number" name="limit" style="width: 70px" />
+        <button id="tabla" type="button">Tabla</button>
+      </form>
+      
+      <table style="display: none" id="resultsTable" border="1"></table>
+      
+</body>
+</html>
